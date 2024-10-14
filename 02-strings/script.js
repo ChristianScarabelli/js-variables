@@ -1,18 +1,16 @@
 // 1. Dichiarazione di variabili
 // Crea una variabile chiamata name e assegnale il tuo nome.
+const name = 'Christian'
 // Stampa il valore di nome nella console.
-
-let name = 'Christian'
 console.log(name)
 
 // 2. Tipi primitivi
 // Crea tre variabili chiamate number, text e bool e assegna rispettivamente
 // un numero, una stringa e un valore booleano.
+const number = 24,
+text = 'Giugno',
+bool = true
 // Stampa tutti i valori nella console.
-
-let number = 24
-let text = 'Giugno'
-let bool = true
 console.log(number, text, bool)
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
@@ -23,6 +21,7 @@ const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
 const fullName = `${firstName} ${lastName}`;
+// firstName + (' ') + lastName
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
